@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.boder-bot {
+	border-bottom: 2px dotted #A3A3A3;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+	padding: 8px 20px;
+	font-weight: 700;
+	border-radius: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+	background-color: blue;
+	color: white;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu {
+	background-color: rgb(66, 67, 165);
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu li {
+	border-bottom: 1px dotted #B0B0B0;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-item {
+	color: white;
+	transition: all 0.7s;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-item:hover {
+	padding-left: 25px;
+	background-color: gray;
+}
+
+@media {
+	.navbar .navbar-nav .nav-item .nav-link {
+		text-align: center;
+	}
+}
