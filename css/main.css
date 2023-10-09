@@ -40,4 +40,71 @@
 	.navbar .navbar-nav .nav-item .nav-link {
 		text-align: center;
 	}
+
+	.navbar .navbar-nav .nav-item .dropdown-item {
+		text-align: center;
+	}
+}
+
+footer .nav .nav-link .nav-item:hover {
+	color: blue;
+}
+
+main {
+	width: 100%;
+	min-height: 1100px;
+}
+
+#banner .banner-r {
+ position: relative;
+}
+
+#banner .caption-r {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	top: 5%;
+}
+
+.hinh {
+	overflow: hidden;
+	position: relative;
+}
+.social {
+	position: absolute;
+	width: 80%;
+	height: 50px;
+	left: 10%;
+	top: 110%;
+	display: flex;
+	trasition: all 0.5s;
+	justify-content: space-around;
+	
+}
+
+.social a{
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	width: 55px;
+	height: 55px;
+	background-color: darkgray;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+social a:hover {
+	background-color: darkred;
+	color: white;
+}
+
+.hinh:hover .social{
+	top: 50%;
 }
